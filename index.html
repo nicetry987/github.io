@@ -7,78 +7,41 @@
     <title>Портфолио</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #2b2b2b;
-            color: #e0f7f7;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid black;
-            background-color: #2b2b2b;
-        }
-        .nav {
             display: flex;
-            justify-content: space-around;
-            padding: 10px;
-            background-color: #1a1a1a;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #2b2b2b;
+            font-family: Arial, sans-serif;
         }
-        .nav a {
-            color: #e0f7f7;
+        .button-container {
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px 30px;
+            border: 2px solid black;
+            border-radius: 50px;
+            background-color: #e0f7f7;
+            color: #2b2b2b;
             text-decoration: none;
+            font-size: 20px;
             font-weight: bold;
-            padding: 5px 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
         }
-        .nav a:hover {
-            background-color: #007b7b;
-        }
-        .section {
-            padding: 20px;
-            border-top: 1px solid #007b7b;
-            margin-top: 10px;
-        }
-        .section h2 {
-            color: #00baba;
-            margin-top: 0;
-        }
-        .video-container {
-            border: 1px solid black;
-            padding: 10px;
-            background-color: #333;
+        .button:hover {
+            transform: scale(1.05);
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <nav class="nav">
-            <a href="#montage">Видеомонтаж</a>
-            <a href="#animation">Анимации</a>
-        </nav>
-
-        <section id="montage" class="section">
-            <h2>Видеомонтаж</h2>
-            <p>Здесь вы можете добавить видео с примерами видеомонтажа, вставляя ссылки на YouTube или Vimeo.</p>
-            <div class="video-container">
-                <video width="640" height="360" controls>
-                    <source src="https://drive.google.com/uc?export=download&id=1-C92zPVwdNXktUWDocT9uoQCEivz_Q8S" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
->
-            </div>
-        </section>
-
-        <section id="animation" class="section">
-            <h2>Анимации</h2>
-            <p>Здесь вы можете добавить видео с примерами анимаций, вставляя ссылки на YouTube или Vimeo.</p>
-            <div class="video-container">
-                <video width="640" height="360" controls>
-                    <source src="https://drive.google.com/uc?export=download&id=1-C92zPVwdNXktUWDocT9uoQCEivz_Q8S" type="video/mp4"> 
-                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </section>
+    <div class="button-container">
+        <a href="motion.html" class="button">Моушн</a>
+        <a href="montage.html" class="button">Монтаж</a>
     </div>
 </body>
 </html>
