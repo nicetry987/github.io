@@ -5,44 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #2b2b2b;
-            font-family: Arial, sans-serif;
-        }
-        .button-container {
-            text-align: center;
-        }
-        .button {
-            display: inline-block;
-            margin: 20px;
-            padding: 15px 30px;
-            border: 2px solid black;
-            border-radius: 50px;
-            background-color: #e0f7f7;
-            color: #2b2b2b;
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: bold;
-            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .button:hover {
-            transform: scale(1.05);
-            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="button-container">
-        <a href="motion.html" class="button">Моушн</a>
-        <a href="montage.html" class="button">Монтаж</a>
+    <div class="portfolio-grid">
+        <div class="work-item">
+            <a href="ссылка_на_работу1">
+                <img src="путь_к_изображению1" alt="Описание работы 1">
+            </a>
+        </div>
+        <div class="work-item">
+            <a href="ссылка_на_работу2">
+                <img src="путь_к_изображению2" alt="Описание работы 2">
+            </a>
+        </div>
+        <div class="work-item">
+            <a href="ссылка_на_работу3">
+                <img src="путь_к_изображению3" alt="Описание работы 3">
+            </a>
+        </div>
+        <!-- Добавь больше блоков .work-item при необходимости -->
     </div>
 </body>
 </html>
+
     
