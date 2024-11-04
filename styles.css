@@ -1,0 +1,25 @@
+body {
+    background-color: #1a1a1a; /* Тёмный фон */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.work-item {
+    border: 1px solid #000; /* Тонкие черные рамки */
+    overflow: hidden;
+    background-color: #333; /* Цвет фона внутри блока */
+}
+
+.work-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
