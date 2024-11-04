@@ -1,3 +1,38 @@
+body {
+    background-color: #2c3e50; /* Темно-серый фон */
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Ширина контейнера */
+}
+
+.button {
+    background-color: #1abc9c; /* Бирюзовый цвет */
+    width: 200px; /* Ширина кнопок */
+    height: 100px; /* Высота кнопок */
+    border-radius: 100px; /* Полукруглые края */
+    text-align: center;
+    line-height: 100px; /* Вертикальное выравнивание текста */
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Тень */
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #16a085; /* Более темный бирюзовый при наведении */
+}
+
 .video-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Сетка для видео */
