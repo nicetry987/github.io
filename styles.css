@@ -11,17 +11,18 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
-    width: 80%; /* Ширина контейнера */
+    gap: 40px; /* Расстояние между кнопками */
+    align-items: center;
+    justify-content: center;
 }
 
 .button {
     background-color: #1abc9c; /* Бирюзовый цвет */
-    width: 200px; /* Ширина кнопок */
-    height: 100px; /* Высота кнопок */
-    border-radius: 100px; /* Полукруглые края */
+    width: 180px; /* Ширина кнопок */
+    height: 80px; /* Высота кнопок */
+    border-radius: 40px; /* Полукруглые края */
     text-align: center;
-    line-height: 100px; /* Вертикальное выравнивание текста */
+    line-height: 80px; /* Вертикальное выравнивание текста */
     text-decoration: none;
     color: white;
     font-size: 24px;
@@ -31,16 +32,4 @@ body {
 
 .button:hover {
     background-color: #16a085; /* Более темный бирюзовый при наведении */
-}
-
-.video-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Сетка для видео */
-    gap: 16px;
-    padding: 20px;
-}
-
-.video-grid video {
-    width: 100%;
-    border-radius: 8px; /* Закругление углов видео */
 }
