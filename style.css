@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+.container {
+    text-align: center;
+}
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.works-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.work-item {
+    width: 300px;
+    text-align: center;
+}
+.work-item iframe {
+    width: 100%;
+    height: 200px;
+}
